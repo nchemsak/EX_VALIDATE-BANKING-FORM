@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loan Application</title>
+	 <link rel="stylesheet" href="validation.css">
+
+</head>
+<body>
+<h1>Loan Application</h1>
+<form action="index.html" method="post">
+	<fieldset>
+
+<!-- 1. Applicant first name
+     2. Applicant middle initial
+     3. Applicant last name -->
+		<legend>Applicant Personal Information</legend>
+			<label>First Name</label>
+				<input type="text" id="first_name" name="first_name">
+			<label>Middle Initial</label>
+				<input type="text" id="middle_initial" name="middle_initial">
+			<label>Last Name</label>
+				<input type="text" id="name" name="user_name">
+		<br>
+
+<!-- 4. Applicant address -->
+			<label>Address Line 1</label>
+				<input type="text" id="name" name="user_name">
+			<label>Address Line 2</label>
+				<input type="text" id="name" name="user_name">
+			<label>City</label>
+				<input type="text" id="name" name="user_name">
+			<label>State</label>
+				<input type="text" id="name" name="user_name">
+			<label>Zip</label>
+				<input type="text" id="name" name="user_name">
+	</fieldset>
+	<fieldset>
+		<legend>Applicant Employment Information</legend>
+
+<!-- 5. Applicant occupation -->
+			<label>Occupation</label>
+				<input type="text" id="name" name="user_name">
+
+<!-- 6. Applicant employer -->
+			<label>Employer</label>
+				<input type="text" id="name" name="user_name">
+		<br>
+
+<!-- 7. Employer address -->
+			<label>Employer Address Line 1</label>
+				<input type="text" id="name" name="user_name">
+			<label>Employer Address Line 2</label>
+				<input type="text" id="name" name="user_name">
+			<label>Employer City</label>
+				<input type="text" id="name" name="user_name">
+			<label>Employer State</label>
+				<input type="text" id="name" name="user_name">
+			<label>Employer Zip</label>
+				<input type="text" id="name" name="user_name">
+	</fieldset>
+
+<!-- 8. Type of loan select element  -->
+	<fieldset>
+		<legend>Loan Information</legend>
+			<label>Type of Loan</label>
+		<select>
+			<option>Commercial</option>
+			<option>Real Estate</option>
+			<option>Personal</option>
+			<option>Mortgage</option>
+		</select><br>
+
+<!-- 9. Requested amount of loan -->
+		<label>Requested amount</label>
+				<input type="number" id="amount" name="user_name">
+				<br>
+
+<!-- 10. Radio button elements for loan length -->
+					<label>Loan Length</label><br>
+
+						<input type="radio" id="five" value="five" name="length">
+							<label for="five">five years</label><br>
+
+						<input type="radio" id="fifteen" value="fifteen" name="length">
+							<label for="fifteen">fifteen years</label><br>
+
+						<input type="radio" id="thirty" value="thirty" name="length">
+							<label for="thirty">thirty years</label><br>
+
+<!-- 11. Checkbox group for special conditions -->
+			<label>Special Conditions:</label><br>
+				<input type="checkbox" id="down_payment" value="down_payment" name="special">
+					<label for="down_payment">I have a down payment</label><br>
+				<input type="checkbox" id="resident" value="resident" name="special">
+					<label for="resident">Out-of-state resident</label><br>
+				<input type="checkbox" id="Married" value="Married" name="special">
+					<label for="Married">Married</label><br>
+				<input type="checkbox" id="co-signed" value="co-signed" name="special">
+					<label for="co-signed">Loan will be co-signed</label><br>
+	</fieldset>
+
+<!-- 12. A text area to allow for additional comments -->
+	<fieldset>
+	<legend>Additional Comments</legend>
+		<textarea></textarea>
+	</fieldset>
+
+<!-- 13. Applicant email address -->
+	<fieldset>
+		<legend>Applicant Contact Information</legend>
+		<label for="mail">Email:</label>
+		<input type="email" id="mail" name="email"><br>
+	
+
+<!-- 14. Applicant telephone number -->
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="tel"><br>
+
+<!-- 15. Applicant LinkedIn URL -->
+		<label for="web">LinkedIn Profile:</label>
+		<input type="url" id="web" name="website">
+	</fieldset>
+	<button type="submit">Submit</button>
+	<button type="reset">Clear form</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+
+input:required:valid, input:focus:valid {
+	background-color: lightgreen;
+}
+
+input:required:invalid, input:focus:invalid {
+	background-color: red;
+}
+
